@@ -1,10 +1,10 @@
-xserver-xorg-input-vmmouse (1:12.9.0-1) UNRELEASED; urgency=low
+xserver-xorg-input-vmmouse (1:12.9.0-0ubuntu1) quantal; urgency=low
 
   * New upstream bugfix release.
     - Fixes erratic mouse behavior with a Windows x64 host. (LP: #996821)
     - Fixes initialization when no other drivers request hardware access.
 
- -- Robert Hooker <sarvatt@ubuntu.com>  Tue, 22 May 2012 16:30:11 -0400
+ -- Bryce Harrington <bryce@ubuntu.com>  Tue, 12 Jun 2012 13:58:47 -0700
 
 xserver-xorg-input-vmmouse (1:12.8.0-1) unstable; urgency=low
 

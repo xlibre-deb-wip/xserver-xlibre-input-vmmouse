@@ -1,3 +1,9 @@
+xserver-xorg-input-vmmouse (1:12.9.0-0ubuntu2) quantal-proposed; urgency=low
+
+  * Rebuild for xserver 1.13.
+
+ -- Timo Aaltonen <tjaalton@ubuntu.com>  Thu, 02 Aug 2012 16:30:22 +0300
+
 xserver-xorg-input-vmmouse (1:12.9.0-0ubuntu1) quantal; urgency=low
 
   * New upstream bugfix release.

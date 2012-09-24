@@ -1,0 +1,41 @@
+From: Peter Hutterer <peter.hutterer@who-t.net>
+To: xorg-devel@lists.freedesktop.org
+Subject: [PATCH vmmouse 1/2] Use sigsafe logging in ReadInput path
+Date: Tue, 21 Aug 2012 14:03:54 +1000
+
+Signed-off-by: Peter Hutterer <peter.hutterer@who-t.net>
+---
+ src/vmmouse.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+--- a/src/vmmouse.c
++++ b/src/vmmouse.c
+@@ -73,6 +73,10 @@
+ #include "exevents.h"
+ #endif
+ 
++#if GET_ABI_MAJOR(ABI_XINPUT_VERSION) < 18
++#define LogMessageVerbSigSafe xf86MsgVerb
++#endif
++
+ #include "xisb.h"
+ #include "mipointer.h"
+ 
+@@ -1063,7 +1067,7 @@
+        */
+       VMMouseClient_RequestAbsolute();
+       mPriv->absoluteRequested = TRUE;
+-      xf86Msg(X_INFO, "VMWARE(0): vmmouse enable absolute mode\n");
++      LogMessageVerbSigSafe(X_INFO, -1, "VMWARE(0): vmmouse enable absolute mode\n");
+    }
+ 
+    /*
+@@ -1130,7 +1134,7 @@
+          VMMouseClient_Disable();
+          VMMouseClient_Enable();
+          VMMouseClient_RequestAbsolute();
+-         xf86Msg(X_INFO, "VMWARE(0): re-requesting absolute mode after reset\n");
++         LogMessageVerbSigSafe(X_INFO, -1, "VMWARE(0): re-requesting absolute mode after reset\n");
+          break;
+       }
+ 

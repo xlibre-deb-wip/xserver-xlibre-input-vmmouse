@@ -1,3 +1,10 @@
+xserver-xorg-input-vmmouse (1:12.9.0-0ubuntu3) quantal; urgency=low
+
+  * Added use-sigsafe-logging.diff. Fix crashes by using signal safe
+    logging (LP: #1053702)
+
+ -- Timo Aaltonen <tjaalton@ubuntu.com>  Mon, 24 Sep 2012 11:46:55 +0300
+
 xserver-xorg-input-vmmouse (1:12.9.0-0ubuntu2) quantal-proposed; urgency=low
 
   * Rebuild for xserver 1.13.

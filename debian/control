@@ -11,6 +11,7 @@ Build-Depends:
  x11proto-input-dev,
  x11proto-core-dev,
  x11proto-randr-dev,
+ udev,
  quilt,
  xutils-dev (>= 1:7.5+4),
 Standards-Version: 3.9.4

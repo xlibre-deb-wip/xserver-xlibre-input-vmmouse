@@ -6,6 +6,7 @@ xserver-xorg-input-vmmouse (1:13.0.0-1) UNRELEASED; urgency=low
 
   [ Julien Cristau ]
   * Disable silent build rules.
+  * Add build-dep on udev to allow rules dir detection.
 
  -- Michele Cane <michele.cane@gmail.com>  Thu, 11 Jul 2013 10:45:03 +0200
 

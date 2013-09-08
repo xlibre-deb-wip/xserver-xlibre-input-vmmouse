@@ -1,4 +1,4 @@
-xserver-xorg-input-vmmouse (1:13.0.0-1) UNRELEASED; urgency=low
+xserver-xorg-input-vmmouse (1:13.0.0-1) unstable; urgency=low
 
   [ Michele Cane ]
   * New upstream release.
@@ -8,7 +8,7 @@ xserver-xorg-input-vmmouse (1:13.0.0-1) UNRELEASED; urgency=low
   * Disable silent build rules.
   * Add build-dep on udev to allow rules dir detection.
 
- -- Michele Cane <michele.cane@gmail.com>  Thu, 11 Jul 2013 10:45:03 +0200
+ -- Julien Cristau <jcristau@debian.org>  Sun, 08 Sep 2013 18:32:45 +0200
 
 xserver-xorg-input-vmmouse (1:12.9.0-1) unstable; urgency=low
 

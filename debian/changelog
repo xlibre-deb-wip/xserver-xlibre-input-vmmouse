@@ -1,7 +1,11 @@
 xserver-xorg-input-vmmouse (1:13.0.0-1) UNRELEASED; urgency=low
 
+  [ Michele Cane ]
   * New upstream release.
   * Bump Standards-Version to 3.9.4, no changes needed.
+
+  [ Julien Cristau ]
+  * Disable silent build rules.
 
  -- Michele Cane <michele.cane@gmail.com>  Thu, 11 Jul 2013 10:45:03 +0200
 

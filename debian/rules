@@ -2,7 +2,10 @@
 
 # vmmouse_detect is installed under /bin:
 override_dh_auto_configure:
-	dh_auto_configure -- --bindir=/bin --disable-silent-rules
+	dh_auto_configure -- \
+		--bindir=/bin \
+		--libdir=\$${exec_prefix}/lib \
+		--disable-silent-rules
 
 # Install in debian/tmp to retain control through dh_install:
 override_dh_auto_install:

@@ -4,6 +4,7 @@ xserver-xorg-input-vmmouse (1:13.0.99-1) UNRELEASED; urgency=medium
   * New upstream release.
     + drop 01-enable-detect-in-kvm.diff, no longer necessary
   * Bump debhelper compat level to 9.
+  * Remove Drew and Cyril from Uploaders.
 
  -- Julien Cristau <jcristau@debian.org>  Sat, 02 May 2015 22:30:54 +0200
 

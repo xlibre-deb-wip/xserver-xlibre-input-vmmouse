@@ -1,4 +1,4 @@
-xserver-xorg-input-vmmouse (1:13.0.99-1) UNRELEASED; urgency=medium
+xserver-xorg-input-vmmouse (1:13.0.99-1) unstable; urgency=medium
 
   * Let uscan verify tarball signatures.
   * New upstream release.
@@ -6,7 +6,7 @@ xserver-xorg-input-vmmouse (1:13.0.99-1) UNRELEASED; urgency=medium
   * Bump debhelper compat level to 9.
   * Remove Drew and Cyril from Uploaders.
 
- -- Julien Cristau <jcristau@debian.org>  Sat, 02 May 2015 22:30:54 +0200
+ -- Julien Cristau <jcristau@debian.org>  Sat, 02 May 2015 22:44:15 +0200
 
 xserver-xorg-input-vmmouse (1:13.0.0-1) unstable; urgency=low
 

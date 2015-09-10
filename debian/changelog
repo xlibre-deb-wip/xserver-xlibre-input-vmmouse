@@ -1,3 +1,9 @@
+xserver-xorg-input-vmmouse (1:13.0.99-2) UNRELEASED; urgency=medium
+
+  * Enable on x32 (Closes: #775203).
+
+ -- Andreas Boll <andreas.boll.dev@gmail.com>  Thu, 10 Sep 2015 12:25:08 +0200
+
 xserver-xorg-input-vmmouse (1:13.0.99-1) unstable; urgency=medium
 
   * Let uscan verify tarball signatures.

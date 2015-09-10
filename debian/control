@@ -18,7 +18,7 @@ Vcs-Git: git://git.debian.org/git/pkg-xorg/driver/xserver-xorg-input-vmmouse
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-input-vmmouse.git
 
 Package: xserver-xorg-input-vmmouse
-Architecture: i386 amd64
+Architecture: i386 amd64 x32
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},

@@ -13,7 +13,7 @@ Build-Depends:
  libudev-dev,
  quilt,
  xutils-dev (>= 1:7.5+4),
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/driver/xserver-xorg-input-vmmouse.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/driver/xserver-xorg-input-vmmouse.git
 

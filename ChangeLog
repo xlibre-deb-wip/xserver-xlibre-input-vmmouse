@@ -1,3 +1,12 @@
+commit bbe41fae444e58c98db64db20114418ec78b99d6
+Author: Thomas Hellstrom <thellstrom@vmware.com>
+Date:   Thu Jun 25 03:20:34 2015 -0700
+
+    Bump version number for release
+    
+    Signed-off-by: Thomas Hellstrom <thellstrom@vmware.com>
+    Reviewed-by: Trivial.
+
 commit d2040bd52d2dde08ce729dedabb350d3476e294a
 Author: Thomas Hellstrom <thellstrom@vmware.com>
 Date:   Wed Apr 8 23:26:34 2015 -0700

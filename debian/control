@@ -23,7 +23,6 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  ${xinpdriver:Depends},
- xserver-xorg-input-mouse,
  udev,
 Provides:
  ${xinpdriver:Provides}

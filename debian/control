@@ -28,16 +28,16 @@ Depends:
 Provides:
  xserver-xorg-input-vmmouse,
  ${xinpdriver:Provides}
-Description: X.Org X server -- VMMouse input driver to use with VMWare
+Description: XLibre X server -- VMMouse input driver to use with VMWare
  This package provides the driver for the X11 vmmouse input device.
  .
  The VMMouse driver enables support for the special VMMouse protocol
  that is provided by VMware virtual machines to give absolute pointer
  positioning.
  .
- More information about X.Org can be found at:
- <URL:http://www.X.org>
+ More information about XLibre can be found at:
+ <URL:https://www.github.com/X11Libre/xserver>
  .
- This package is built from the X.org xf86-input-vmmouse driver module.
+ This package is built from the XLibre xf86-input-vmmouse driver module.
 Conflicts:
  xserver-xorg-input-vmmouse,

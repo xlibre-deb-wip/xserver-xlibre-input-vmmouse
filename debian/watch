@@ -1,4 +1,2 @@
-#git=git://anongit.freedesktop.org/xorg/driver/xf86-input-vmmouse
-version=3
-opts="pgpsigurlmangle=s/$/.sig/" \
-http://xorg.freedesktop.org/releases/individual/driver/ xf86-input-vmmouse-(.*)\.tar\.gz
+version=4
+https://github.com/X11Libre/xf86-input-vmmouse/tags .*/xlibre-xf86-input-vmmouse-(.*)@ARCHIVE_EXT@

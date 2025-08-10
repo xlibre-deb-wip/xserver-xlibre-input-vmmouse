@@ -21,6 +21,7 @@
 bin_PROGRAMS = @DRIVER_NAME@_detect
 
 AM_CPPFLAGS = -I$(top_srcdir)/shared $(XORG_CFLAGS)
+AM_CFLAGS = $(BASE_CFLAGS)
 
 @DRIVER_NAME@_detect_SOURCES = vmmouse_detect.c vmmouse_udev.c vmmouse_iopl.c
 @DRIVER_NAME@_detect_LDADD = $(top_builddir)/shared/lib@DRIVER_NAME@.la \
@@ -34,7 +35,7 @@ callouts_SCRIPTS = hal-probe-vmmouse
 hal-probe-vmmouse: hal-probe-vmmouse.in
 	$(AM_V_GEN)$(SED) -e 's|__BIN_PREFIX__|$(bindir)|g' \
 	    -e 's|__HAL_BIN_PREFIX__|$(HAL_BIN_DIR)|g' \
-	    < $< > $@
+	    < $(srcdir)/hal-probe-vmmouse.in > $@
 
 CLEANFILES = hal-probe-vmmouse
 
@@ -50,7 +51,7 @@ udevdir=$(UDEV_RULES_DIR)
 udev_DATA = 69-xorg-vmmouse.rules
 
 $(udev_DATA): $(udev_DATA).in
-	$(AM_V_GEN)$(SED) -e 's|__BIN_PREFIX__|$(bindir)|g' < $< > $@
+	$(AM_V_GEN)$(SED) -e 's|__BIN_PREFIX__|$(bindir)|g' < $(srcdir)/$(udev_DATA).in > $@
 
 CLEANFILES += $(udev_DATA)
 

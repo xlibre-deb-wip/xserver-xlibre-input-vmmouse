@@ -26,7 +26,7 @@ Depends:
  ${xinpdriver:Depends},
  udev,
 Provides:
- xserver-xorg-input-vmmouse,
+ xserver-xorg-input-vmmouse (= ${binary:Version}),
  ${xinpdriver:Provides}
 Description: XLibre X server -- VMMouse input driver to use with VMWare
  This package provides the driver for the X11 vmmouse input device.

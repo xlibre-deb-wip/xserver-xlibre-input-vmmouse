@@ -9,6 +9,7 @@ override_dh_auto_configure:
 		--bindir=/bin \
 		--libdir=\$${exec_prefix}/lib \
 		--with-udev-rules-dir=/lib/udev/rules.d \
+		--with-xorg-module-dir=/usr/lib/xorg/modules \
 		--disable-silent-rules
 
 # Install in debian/tmp to retain control through dh_install:
